@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "HashPass",
+  "version": "1.0",
+
+  "description": "Allows users to hash a password before entering it into a password field. By using a hash, the user can remember a simple password while their actual password is much more secure.",
+  "homepage_url": "https://github.com/DxunGreen/hashpass/tree/master",
+
+  "icons": {
+    "48": "icons/ethernet_48dp.png",
+    "96": "icons/ethernet_96dp.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/ethernet_32dp.png",
+    "default_title": "HashPass",
+    "default_popup": "popup/hello.html"
+  }
+}
